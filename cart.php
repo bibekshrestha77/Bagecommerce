@@ -92,7 +92,12 @@ if(isset($_POST['update_qty'])){
       <p>Grand Total : <span>Nrs.<?= $grand_total; ?>/-</span></p>
       <a href="shop.php" class="option-btn">Continue Shopping.</a>
       <a href="cart.php?delete_all" class="delete-btn <?= ($grand_total > 1)?'':'disabled'; ?>" onclick="return confirm('delete all from cart?');">Delete All Items ?</a>
-      <a href="checkout.php" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">Proceed to Checkout.</a>
+      <form action="khalti.php" method="post" style="display:inline;">
+   <input type="hidden" name="amount" value="<?= $grand_total; ?>">
+   <input type="hidden" name="order_id" value="ORDER<?= rand(10000,99999); ?>">
+   <button type="submit" class="btn <?= ($grand_total > 1)?'':'disabled'; ?>">Proceed to Checkout</button>
+</form>
+
    </div>
 
 </section>
