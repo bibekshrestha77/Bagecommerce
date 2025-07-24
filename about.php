@@ -42,9 +42,9 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>Developer's Message:</h3>
-         <p>Hey There ! I'm Aman Chaudhary. A Student of BCA from Kathmandu College of Technology [Batch : 2021] . I love designing websites and exploring new things. Learning new things is my hobby.</p>
+         <p>Hey There ! I'm Bibek Shrestha. A Student of BCA from Asian College of Higher Studies(ACHS) [Batch : 2022] . I love designing websites and exploring new things. Learning new things is my hobby.</p>
 
-         <p>I would like to thank <a href="https://www.facebook.com/share/16C3iXhKmx/" target="_blank">Respected Bishnu Ram Ghimire</a> Sir for guiding me through the session and making me able to develop projects like this. </p>
+         
          <a href="contact.php" class="btn">Contact Us</a>
       </div>
 
