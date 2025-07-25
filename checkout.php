@@ -110,7 +110,7 @@ while ($fetch_cart = $select_cart->fetch(PDO::FETCH_ASSOC)) {
         </main>
 
         <footer class="footer">
-            <div class="credit">Created by <span>Your Company</span> | All Rights Reserved</div>
+            <div class="credit">Created by <span>Bibek Shrestha</span> | All Rights Reserved</div>
             <div class="social">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>

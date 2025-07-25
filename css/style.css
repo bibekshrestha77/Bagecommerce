@@ -1101,7 +1101,7 @@ section{
 .checkout-form .inputBox input {
     width: 100%;
     padding: 12px 15px;
-    font-size: 1rem;
+    font-size: 10px;
     color: #333;
     background: #f9f9f9;
     border: 1px solid #ddd;
@@ -1119,8 +1119,8 @@ section{
 .checkout-form .btn {
     width: 100%;
     padding: 14px;
-    font-size: 1.1rem;
-    background: #007BFF; /* Bootstrap primary blue */
+    font-size: 15px;
+    background: #007BFF; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -1133,7 +1133,7 @@ section{
 }
 
 .checkout-form .btn:hover {
-    background: #0056b3; /* Darker blue on hover */
+    background: #0056b3; 
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
 }
@@ -1161,3 +1161,6 @@ section{
     }
 }
 
+.checkout-form input {
+    font-size: 20px !important;
+}
